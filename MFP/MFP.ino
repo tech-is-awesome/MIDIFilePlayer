@@ -15,49 +15,22 @@ float Ab[9] = {25.96, 51.91, 103.83, 207.65, 415.30, 830.61, 1661.22, 3322.44};
 float A[9] = {27.50, 55.00, 110.00, 220.00, 440.00, 880.00, 1760.00, 3520.00};
 float Bb[9] = {29.14, 58.27, 116.54, 233.08, 466.16, 932.33, 1864.66, 3729.31};
 float B[9] = {30.87, 61.74, 123.47, 246.94, 493.88, 987.77, 1975.53, 3951.07};
-// double[] Song = {};
-void testSpeaker(int sPin){
-  int currentOct = 0;
-  while (currentOct <= 8){
-    tone(sPin, C[currentOct]);
-    delay(1000);
-    tone(sPin, Db[currentOct]);
-    delay(1000);
-    tone(sPin, D[currentOct]);
-    delay(1000);
-    tone(sPin, Eb[currentOct]);
-    delay(1000);
-    tone(sPin, E[currentOct]);
-    delay(1000);
-    tone(sPin, F[currentOct]);
-    delay(1000);
-    tone(sPin, Gb[currentOct]);
-    delay(1000);
-    tone(sPin, G[currentOct]);
-    delay(1000);
-    tone(sPin, Ab[currentOct]);
-    delay(1000);
-    tone(sPin, A[currentOct]);
-    delay(1000);
-    tone(sPin, Bb[currentOct]);
-    delay(1000);
-    tone(sPin, B[currentOct]);
-    delay(1000);
-    currentOct = currentOct + 1;
-  }
-}
 
-
+// Paste Song Here
+double song[] = {C[4], E[5], Db[3]};
+double len[] = {1000, 500, 250};
+int songlen = 3;
 
 void setup(){
     pinMode(b1, OUTPUT);
-    pinMode(b2, OUTPUT);
-    pinMode(b3, OUTPUT);
-    testSpeaker(b1);
-    testSpeaker(b2);
-    testSpeaker(b3);
 }
 
 void loop(){
-    
+    int currentNote = 0;
+    while (currentNote <= songlen - 1){
+      tone(b1, song[currentNote]);
+      delay(len[currentNote]);
+      currentNote = currentNote + 1;
+    }
+    currentNote = 0;
 }
