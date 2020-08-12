@@ -1,0 +1,13 @@
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.csprojAssemblyReference.cache
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.AssemblyInfoInputs.cache
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.AssemblyInfo.cs
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.csproj.CoreCompileInputs.cache
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\bin\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.exe
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\bin\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.deps.json
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\bin\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.runtimeconfig.json
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\bin\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.runtimeconfig.dev.json
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\bin\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.dll
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\bin\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.pdb
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.dll
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.pdb
+C:\Users\scott\Documents\Arduino Projects\MIDIFilePlayer\MFPCU\obj\Debug\netcoreapp3.1\MIDI File Player Converter Utitlity.genruntimeconfig.cache
