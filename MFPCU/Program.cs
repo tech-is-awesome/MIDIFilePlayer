@@ -1,16 +1,22 @@
 ﻿using System;
-using MFPCUCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace MIDI_File_Player_Converter_Utitlity
+namespace MFPCU
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            Console.WriteLine("MIDI File Player Converter Utitlity\nBy Scott's Tech Logs 2020");
-            Console.WriteLine("Getting File");
-            double[] notes = MFPCUCore.API.notes(args[0]);
-            Console.WriteLine("Copy the fllowing into the /MFP/MFP.ino where you see //Paste song data here");
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }

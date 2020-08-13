@@ -1,8 +1,7 @@
+#include "MFNOTEDATA.h"
 const int b1 = 9; // Use pin 3 for the first buzzer
-const int b2 = 10; // Use pin 5 for the second buzzer
-const int b3 = 11; // Use pin 6 for the third buzzer
-
-// Note to frequency
+//const int b2 = 10; // Use pin 5 for the second buzzer
+//const int b3 = 11; // Use pin 6 for the third buzzer
 float C[9] = {16.35, 32.70, 65.41, 130.81, 261.63, 523.25, 1046.50, 2093.00, 4186.01};
 float Db[9] = {17.32, 34.65, 69.30, 138.59, 277.18, 554.37, 1108.73, 2217.46, 4434.92};
 float D[9] = {18.35, 36.71, 73.42, 146.83, 293.66, 587.33, 1174.66, 2349.32, 4698.64};
@@ -15,13 +14,24 @@ float Ab[9] = {25.96, 51.91, 103.83, 207.65, 415.30, 830.61, 1661.22, 3322.44};
 float A[9] = {27.50, 55.00, 110.00, 220.00, 440.00, 880.00, 1760.00, 3520.00};
 float Bb[9] = {29.14, 58.27, 116.54, 233.08, 466.16, 932.33, 1864.66, 3729.31};
 float B[9] = {30.87, 61.74, 123.47, 246.94, 493.88, 987.77, 1975.53, 3951.07};
+// Paste Song Data Here
+double song[] = {C[3}, Db[4], Eb[3]}; // Song Data from CMD here
+int tempo = 60000 / 80; // Replace 80 with the tempo
 
-// Paste Song Here
-double song[] = {C[4], E[5], Db[3]};
-double len[] = {1000, 500, 250};
-int songlen = 3;
+int semiquaver = tempo / 4;
+int dottedsemiquaver = tempo / 4.5;
+int quaver = tempo / 2;
+int dottedquaver = tempo / 2.5;
+int crotchet = tempo;
+int dottedcrotchet = tempo * 1.5;
+int minum = tempo * 2;
+int semibreve = tempo * 4;
+
+double lenp[] = {Crotchet, Crotchet, Crotchet}; // Length Data From CMD here
+int songlen = 3
 
 void setup(){
+    Serial.begin(9600);
     pinMode(b1, OUTPUT);
 }
 
